@@ -22,5 +22,13 @@ def x_2_y_2():
     ax.set_title('f(x, y) = x * y')
     plt.show()
 
+def sin_3x_y():
+    z = np.sin(3*x) * y
+
+    ax.plot_surface(x, y, z)
+    ax.set_title('f(x, y) = x * y')
+    plt.show()
+
 # x_t_y()
-x_2_y_2()
+# x_2_y_2()
+sin_3x_y()
