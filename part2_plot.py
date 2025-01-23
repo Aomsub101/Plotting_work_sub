@@ -15,6 +15,12 @@ def x_t_y():
     ax.set_title('f(x, y) = x * y')
     plt.show()
 
+def x_2_y_2():
+    z = x**2 +  y**2
 
-x_t_y()
+    ax.plot_surface(x, y, z)
+    ax.set_title('f(x, y) = x * y')
+    plt.show()
 
+# x_t_y()
+x_2_y_2()
